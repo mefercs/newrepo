@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+.main {
+  height: 100vh;
+  background: lightblue;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar,
+.footer {
+  background-color: teal;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+}
+.footer{
+  height: 20px;
+  font-size:0.5rem;
+}
+.nav-button {
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  color:white;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
